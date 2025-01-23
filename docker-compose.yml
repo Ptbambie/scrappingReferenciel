@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: immobilier
+    ports:
+      - "5432:5432"

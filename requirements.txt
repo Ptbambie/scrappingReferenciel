@@ -1,0 +1,18 @@
+# Gestion des données
+pandas
+numpy
+
+# Web scraping
+beautifulsoup4
+requests
+
+# Interface utilisateur
+streamlit
+
+# API et backend
+flask
+fastapi
+uvicorn
+
+# Dockerisation
+python-dotenv
