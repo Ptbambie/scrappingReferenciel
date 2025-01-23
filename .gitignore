@@ -8,7 +8,7 @@ __pycache__/
 *.log
 .env
 
-.myenv
+*.myenv
 
 # Autres
 .vscode/
